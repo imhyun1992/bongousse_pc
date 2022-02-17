@@ -1,0 +1,94 @@
+@charset "utf-8";
+/*header*/
+
+    /*top*/
+header{
+    width:1200px;height:105px;margin:auto;position:relative;
+}
+
+#top{position:absolute;top:0;right:15px;}
+#top #topM{overflow: hidden;}
+#top>#topM>li{float:left;margin-left:24px;}
+#top>#topM>li>a{font:11px/29px '굴림';color:#676767;}
+#top>#topM>li>a:hover{font-weight:bold; color:#333;}
+    /*logo*/
+header h1{
+    width:216px;height:74px;
+    position:absolute;top:16px;left:35px;
+}
+    /*nav*/
+header #nav{
+    width:726px;height:74px;
+    position:absolute;bottom:0;right:0;
+}
+header #nav #navM{}
+header>#nav>#navM>li{
+    float:left;width:121px;height:74px;
+    text-align: center;
+    font:bold 18px/74px '나눔고딕';
+    position:relative;
+}
+header>#nav>#navM>li:hover:after{
+    content:'';display:block;width:100%;height:60px;
+    border-bottom:4px solid #ffa801;
+    position:absolute;top:0;
+}
+header>#nav>#navM>li>a{color:#676767;display:block;height:100%;width:100%;}
+header>#nav>#navM>li:hover>a{color:#333;}
+
+/*navSub*/
+.navSub{
+    position:absolute;z-index:100;right:0;
+    width:121px;height:90px;
+    background-color:#fff;
+    opacity:0.8;
+}
+.navSub>li{height:20px;width:100%;line-height:20px;text-align:left;text-indent:25px;}
+.navSub>li>a{font:bold 12px/20px '나눔고딕';display: block;width:100%;height:100%;color:#676767;}
+.navSub:last-child{margin-left:25px;}
+.navSub>li>a:hover{color:#000;}
+
+
+
+
+/*body*/
+#contents{
+    width:1200px;margin:auto;
+    position:relative;
+}
+
+
+/*quick menu*/
+#quick{
+    clear:both;
+    position:fixed;left:50%;top:40%;margin-left:700px;
+}
+#quick li{
+    width:43px;height:43px;
+    background-color:#ffa801;
+    border:1px solid #676767;
+    box-sizing:border-box;
+}
+#quick li:nth-of-type(1){padding:5px;}
+#quick li:nth-of-type(2){padding:10px 2px;}
+#quick li:nth-of-type(3){text-align: center;line-height: 41px;font-weight:bold;}
+#quick li:nth-of-type(4){padding:10px 12px;}
+
+/*footer*/
+footer{width:100%;height:336px;background-color:#363533;clear: both;}
+footer p{
+    width:295px;margin:auto;
+    font:12px/26px '굴림';color:#bababa;
+    text-align: center;
+}
+footer #foot_top{
+    font:15px/30px '나눔고딕';
+    color:#ffa801;text-align:center;
+    padding-top:84px;
+    box-sizing: border-box;
+}
+footer p #foot_bottom a{
+    font:12px/26px '굴림';color:#bababa;
+    text-align: center;
+    text-decoration: underline;
+}

@@ -1,0 +1,145 @@
+@charset "utf-8";
+
+/*main visual*/
+#main_visual{
+    height:715px;margin:auto;
+    position:relative;
+}
+#main_visual p{
+    position:absolute;
+}
+/*
+#main_visual input{display:none;}
+#main_visual label{
+    float:left;margin-left:12px;
+
+    z-index:1000;width:32px;height:10px;background-color:red;
+}
+*/
+
+/*contents*/
+#contents{width:1200px;margin: auto;padding-top:60px;}
+
+    /*con_top*/
+#con_top{
+    width:100%;height:838px;
+    box-sizing: border-box;
+}
+#conL{float:left;width:590px;margin-right:16px;}
+#conR{float:right;width:592px;}
+#conR #conR1{width:100%;height:375px;margin-bottom:27px;}
+#conR1 #map iframe{width:592px;height:250px;}
+.conR_text{
+    width:100%;height:124px;
+    border-top:1px solid #a48a67;
+    border-bottom:1px solid #a48a67;
+    box-sizing: border-box;
+    padding:23px 43px;
+}
+.conR_text a h2{font:30px/48px '나눔고딕';color:#a48a67;}
+.conR_text a p{font:18px/38px '나눔고딕';}
+.conR_text h2{font:30px/48px '나눔고딕';color:#a48a67;}
+.conR_text p{font:18px/38px '나눔고딕';}
+#conR1:hover .conR_text{background-color:#fffcf5;}
+#conR1:hover #map{opacity:0.7;}
+#conR1:hover .conR_text a h2,#conR1:hover .conR_text a p{font-weight:500;}
+#conR2:hover a img{opacity:0.7;}
+#conR2:hover a .conR_text{background-color:#fffcf5;}
+#conR2:hover a .conR_text h2,#conR2:hover a .conR_text p{font-weight:500;}
+
+    /*con_mid*/
+#con_mid{
+    width:100%;height:394px;
+    background:url(../images/con_back.png) no-repeat;
+    padding:56px 98px;box-sizing: border-box;
+}
+#midL{width:450px;height:283px;float:left;position:relative;}
+
+/*check*/
+#conM_text{
+    margin-left:19px;margin-bottom:48px;
+    font:25px/57px '이순신 돋움체';
+}
+#text1{font-size:30px;color:#ffa801;}
+#text2{margin-left:20px;}
+#text3{font-size:30px;}
+#text4{margin-left:-20px;color:#b74747;}
+
+
+#conM_btn{
+    width:436px;height:46px;
+}
+#conM_btn #btn1{float:left;margin-right:20px;
+    width:163px;height:100%;
+    background-color:#3d3d3d;
+    
+    text-align: center;
+}
+#conM_btn #btn1 a{
+    display:block;
+    width:163px;height:100%;
+    font:18px/46px '나눔고딕';color:#fff;
+}
+#conM_btn #btn1:hover{background-color:#1e1e1e;}
+#conM_btn #btn2{float:left;
+    width:163px;height:100%;
+    background-color:#ffa801;
+    text-align: center;
+}
+#conM_btn #btn2 a{
+    display:block;
+    width:163px;height:100%;
+    font:18px/46px '나눔고딕';color:#fff;
+}
+#conM_btn #btn2:hover{background-color:#c78300;}
+
+#midR{
+    width:535px;float:right;height:286px;
+    background-color:#3d3d3d;
+    position:relative;
+}
+#midR #con_img{}
+#midR #con_img #conR_img{width:307px;height:230px;position:absolute;left:22px;top:26px;z-index:100;}
+#midR #con_img #store{
+    width:335px;height:248px;
+    background-color:#ffa801;
+    position:absolute;right:22px;top:19px;
+    text-indent:154px;
+    font:17px/28px '나눔고딕';
+}
+#midR #con_img #store #store1{line-height: 78px;color:#fff;font-weight:bold;}
+#midR #con_img #store #store2 a{line-height:62px;margin-bottom:27px;color:#000;}
+
+    /*con_bot*/
+#con_bot{margin-top:58px;width:100%;height:333px;overflow: hidden;margin-bottom:114px;}
+#con_bot #more_title{
+    width:1200px;height:21px;
+    margin-bottom:34px;
+    background-color:#ffa801;
+}
+#con_bot #more_title #more{
+    display:block;
+    width:128px;height:21px;
+    font:18px/21px '이순신 돋움체';
+    background-color:#fff;
+}
+
+
+.more{
+    float:left;width:362px;height:45px;
+    margin-right:57px;position:relative;
+}
+.more:last-child{margin-right:0;}
+.more_img{position:absolute;left:0;top:0;}
+.more .text_box{
+    width:362px;height:45px;
+    background-color:#3d3d3d;
+    font:15px/45px '나눔고딕';color:#fff;
+    position:absolute;top:233px;
+}
+.more:hover a .more_img{opacity:0.7;}
+.more:hover a .text_box{color:#ffa801;}
+.more .text_box p{float:left;text-indent:20px;}
+.more .text_box i{float:right;margin-right:19px;font-size:30px;line-height:45px}
+
+
